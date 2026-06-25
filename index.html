@@ -30,18 +30,21 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap">
+    </noscript>
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest" defer></script>
 
     <!-- Stylesheet -->
+    <link rel="preload" href="styles.css" as="style">
     <link rel="stylesheet" href="styles.css">
 
     <!-- Structured Data: Product -->
@@ -196,7 +199,7 @@
             </div>
             <div class="hero-visual animate-in delay-2">
                 <div class="hero-visual-frame">
-                    <img src="assets/images/hero-books.jpg" alt="Buku ADZ-DZIKRĀ Jilid 1 sampai 6" loading="lazy">
+                    <img src="assets/images/hero-books.webp" width="800" height="800" alt="Buku ADZ-DZIKRĀ Jilid 1 sampai 6" loading="lazy">
                 </div>
             </div>
         </div>
@@ -282,7 +285,7 @@
                 <!-- Jilid 1 -->
                 <div class="product-card animate-in" data-jilid="1">
                     <div class="product-card-image">
-                        <img src="assets/images/jilid-1.png" alt="ADZ-DZIKRĀ Jilid 1 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
+                        <img src="assets/images/jilid-1.webp" width="341" height="512" alt="ADZ-DZIKRĀ Jilid 1 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
                         <div class="product-card-badge">Pemula</div>
                     </div>
                     <div class="product-card-body">
@@ -304,7 +307,7 @@
                 <!-- Jilid 2 -->
                 <div class="product-card animate-in" data-jilid="2">
                     <div class="product-card-image">
-                        <img src="assets/images/jilid-2.png" alt="ADZ-DZIKRĀ Jilid 2 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
+                        <img src="assets/images/jilid-2.webp" width="341" height="512" alt="ADZ-DZIKRĀ Jilid 2 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
                     </div>
                     <div class="product-card-body">
                         <span class="product-card-jilid">Jilid 2</span>
@@ -325,7 +328,7 @@
                 <!-- Jilid 3 -->
                 <div class="product-card animate-in" data-jilid="3">
                     <div class="product-card-image">
-                        <img src="assets/images/jilid-3.png" alt="ADZ-DZIKRĀ Jilid 3 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
+                        <img src="assets/images/jilid-3.webp" width="341" height="512" alt="ADZ-DZIKRĀ Jilid 3 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
                     </div>
                     <div class="product-card-body">
                         <span class="product-card-jilid">Jilid 3</span>
@@ -346,7 +349,7 @@
                 <!-- Jilid 4 -->
                 <div class="product-card animate-in" data-jilid="4">
                     <div class="product-card-image">
-                        <img src="assets/images/jilid-4.png" alt="ADZ-DZIKRĀ Jilid 4 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
+                        <img src="assets/images/jilid-4.webp" width="341" height="512" alt="ADZ-DZIKRĀ Jilid 4 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
                     </div>
                     <div class="product-card-body">
                         <span class="product-card-jilid">Jilid 4</span>
@@ -367,7 +370,7 @@
                 <!-- Jilid 5 -->
                 <div class="product-card animate-in" data-jilid="5">
                     <div class="product-card-image">
-                        <img src="assets/images/jilid-5.png" alt="ADZ-DZIKRĀ Jilid 5 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
+                        <img src="assets/images/jilid-5.webp" width="341" height="512" alt="ADZ-DZIKRĀ Jilid 5 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
                     </div>
                     <div class="product-card-body">
                         <span class="product-card-jilid">Jilid 5</span>
@@ -388,7 +391,7 @@
                 <!-- Jilid 6 -->
                 <div class="product-card animate-in" data-jilid="6">
                     <div class="product-card-image">
-                        <img src="assets/images/jilid-6.png" alt="ADZ-DZIKRĀ Jilid 6 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
+                        <img src="assets/images/jilid-6.webp" width="341" height="512" alt="ADZ-DZIKRĀ Jilid 6 - Pelajaran Menulis Huruf Al-Qur'an" loading="lazy">
                         <div class="product-card-badge">Mahir</div>
                     </div>
                     <div class="product-card-body">
@@ -559,7 +562,7 @@
             <div class="author-layout animate-in">
                 <div class="author-photo">
                     <div class="author-photo-frame">
-                        <img src="assets/images/author.png" alt="M. Sifin Almufti, S.Ag — Penulis ADZ-DZIKRĀ" loading="lazy">
+                        <img src="assets/images/author.webp" width="400" height="400" alt="M. Sifin Almufti, S.Ag — Penulis ADZ-DZIKRĀ" loading="lazy">
                     </div>
                     <div class="author-photo-accent" aria-hidden="true"></div>
                 </div>
