@@ -40,6 +40,9 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap">
     </noscript>
 
+    <!-- LCP Image Preload -->
+    <link rel="preload" as="image" href="assets/images/hero-books.webp">
+
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest" defer></script>
 
@@ -199,7 +202,7 @@
             </div>
             <div class="hero-visual animate-in delay-2">
                 <div class="hero-visual-frame">
-                    <img src="assets/images/hero-books.webp" width="800" height="800" alt="Buku ADZ-DZIKRĀ Jilid 1 sampai 6" loading="lazy">
+                    <img src="assets/images/hero-books.webp" width="800" height="800" alt="Buku ADZ-DZIKRĀ Jilid 1 sampai 6" fetchpriority="high">
                 </div>
             </div>
         </div>
