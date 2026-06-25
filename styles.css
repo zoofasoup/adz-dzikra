@@ -677,7 +677,7 @@ section {
 
 /* CTA button in nav */
 .nav-cta {
-  display: none;
+  display: inline-flex;
   padding: var(--space-xs) var(--space-lg);
   font-size: var(--fs-sm);
   font-weight: var(--fw-semibold);
